@@ -1,4 +1,8 @@
-// Advent of Code 2025: Day 10
+/*
+Advent of Code 2025: Day 10
+By: Dan Shan (and GPT/co-pilot)
+2025, Dec 10
+*/
 
 #include <bits/stdc++.h>
 using namespace std;
