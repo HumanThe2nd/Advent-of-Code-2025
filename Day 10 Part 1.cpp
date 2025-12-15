@@ -1,9 +1,8 @@
 /*
 Advent of Code 2025: Day 10
-By: Dan Shan (and GPT/co-pilot)
 2025, Dec 10
+Brute force with optimizations (bitmasking)
 */
-
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -31,14 +30,12 @@ int main() {
     string line;
     int res = 0;
     while (getline(cin, line)) {
-
         // Diagram
         size_t start = line.find('['), end = line.find(']');
         string diagram = line.substr(start + 1, end - start - 1);
         int target = 0;
         for (int i = 0; i < diagram.size(); ++i)
             if (diagram[i] == '#') target |= (1 << i);
-        
         // Buttons
         vector<int> buttons;
         stringstream ss(line);
