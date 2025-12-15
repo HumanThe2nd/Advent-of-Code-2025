@@ -1,5 +1,5 @@
 /*
-Advent of Cod2 2025: Day 1
+Advent of Code 2025: Day 1
 By: Dan Shan
 2025, Dec 1
 */
