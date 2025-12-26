@@ -10,7 +10,7 @@
 int main() {
     int p = 50, ans = 0;
     char s[5];
-    for(int i = 0; i < 4446; ++i) {
+    for(int i = 0; i < 4446; ++i) { // ** SET LINE COUNT MANUALLY
         scanf("%s", s);
         char dir = s[0];
         int dist = 0, l = strlen(s);
